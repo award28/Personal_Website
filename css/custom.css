@@ -1,0 +1,16 @@
+.crop {
+  height: 260px; 
+  object-fit: cover;
+}
+.text-shadow {
+ text-shadow: 2px 2px 4px #000000;
+}
+.divider-vertical {
+height: 50px;
+margin: 0 9px;
+border-left: 1px solid #777;
+}
+.box-shadow {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+

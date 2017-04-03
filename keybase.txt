@@ -1,0 +1,48 @@
+I hereby claim:
+
+  * I am an admin of http://austinward.me
+  * I am award (https://keybase.io/award) on keybase.
+  * I have a public key ASD_-uxgfe2y97T4X4Usm8_zYs11xnD7AJzkN_eMu9hAJwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101d0c77159c6a3d1a0fb0620ce19311834af2208451ac47f47634a4df95e084af10a",
+            "host": "keybase.io",
+            "kid": "0120fffaec607dedb2f7b4f85f852c9bcff362cd75c670fb009ce437f78cbbd840270a",
+            "uid": "b4009662c0116dac4f17a86354dcef19",
+            "username": "award"
+        },
+        "service": {
+            "hostname": "austinward.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.13"
+    },
+    "ctime": 1458339874,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1458339847,
+        "hash": "e3a0263977cae1a028261e39a1d086abd7a3d165008f4951eb9507e8bfc4f1c8074f50dc00882538810b0c77b7b17357a5c1a794a01a6b0724f2b04db3cfcac4",
+        "seqno": 413366
+    },
+    "prev": "b906468bbb834f61e6270193a6146d6104a9f04e7a3af2e57f46eb8cbe26ba58",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg//rsYH3tsve0+F+FLJvP82LNdcZw+wCc5Df3jLvYQCcKp3BheWxvYWTFAvJ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZDBjNzcxNTljNmEzZDFhMGZiMDYyMGNlMTkzMTE4MzRhZjIyMDg0NTFhYzQ3ZjQ3NjM0YTRkZjk1ZTA4NGFmMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZmZmYWVjNjA3ZGVkYjJmN2I0Zjg1Zjg1MmM5YmNmZjM2MmNkNzVjNjcwZmIwMDljZTQzN2Y3OGNiYmQ4NDAyNzBhIiwidWlkIjoiYjQwMDk2NjJjMDExNmRhYzRmMTdhODYzNTRkY2VmMTkiLCJ1c2VybmFtZSI6ImF3YXJkIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJhdXN0aW53YXJkLm1lIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xMyJ9LCJjdGltZSI6MTQ1ODMzOTg3NCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDU4MzM5ODQ3LCJoYXNoIjoiZTNhMDI2Mzk3N2NhZTFhMDI4MjYxZTM5YTFkMDg2YWJkN2EzZDE2NTAwOGY0OTUxZWI5NTA3ZThiZmM0ZjFjODA3NGY1MGRjMDA4ODI1Mzg4MTBiMGM3N2I3YjE3MzU3YTVjMWE3OTRhMDFhNmIwNzI0ZjJiMDRkYjNjZmNhYzQiLCJzZXFubyI6NDEzMzY2fSwicHJldiI6ImI5MDY0NjhiYmI4MzRmNjFlNjI3MDE5M2E2MTQ2ZDYxMDRhOWYwNGU3YTNhZjJlNTdmNDZlYjhjYmUyNmJhNTgiLCJzZXFubyI6MTYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAu+JV1RqT5CFUxUkZw8eEzSFcwqXo8oN9tSDBjkQvQkjx0PUxzgxnm0qW9OFhovC86QEzQt3jutfUhhDR1NINAqhzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/award
