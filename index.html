@@ -104,6 +104,15 @@
           </div>
         </div>
         <div class="grid">
+          <a href="#foodbites" class="portfolio-link" data-toggle="modal">
+            <figure class="effect-apollo">
+              <img src="img/portfolio/fbcover.png" alt="Food Bites">
+              <figcaption>
+              <h2 class="text-shadow"><strong class="ng-binding">Food Bites</strong></h2>
+              <p>Click here to learn more!</p>
+              </figcaption>     
+            </figure>
+          </a>
           <a href="#ftt" class="portfolio-link" data-toggle="modal">
             <figure class="effect-apollo">
               <img src="img/portfolio/ftt.png" alt="Fifty Twenty Thirty">
@@ -131,29 +140,11 @@
               </figcaption>     
             </figure>
           </a>
-          <a href="#ttyl" class="portfolio-link" data-toggle="modal">
-            <figure class="effect-apollo">
-              <img src="img/portfolio/ttyl.jpg" alt="TTYL">
-              <figcaption>
-              <h2 class="text-shadow"><strong class="ng-binding">TTYL</strong></h2>
-              <p>Click here to learn more!</p>
-              </figcaption>     
-            </figure>
-          </a>
-          <a href="#pippin" class="portfolio-link" data-toggle="modal">
-            <figure class="effect-apollo">
-              <img src="img/portfolio/Pippin.png" alt="Pippin">
-              <figcaption>
-              <h2 class="text-shadow"><strong class="ng-binding">Pippin</strong></h2>
-              <p>Click here to learn more!</p>
-              </figcaption>     
-            </figure>
-          </a>
           <a href="#personalWebsite" class="portfolio-link" data-toggle="modal">
             <figure class="effect-apollo">
               <img src="img/portfolio/personalWeb2.png" alt="Personal Website">
               <figcaption>
-              <h2 class="text-shadow"><strong class="ng-binding">Personal Website</strong></h2>
+              <h2 class="text-shadow"><strong class="ng-binding">My Personal Website</strong></h2>
               <p>Click here to learn more!</p>
               </figcaption>     
             </figure>
@@ -366,80 +357,6 @@
         </div>
       </div>
     </div>
-    <div class="portfolio-modal modal fade" id="pippin" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl">
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <div class="modal-body">
-                <h2 class="ng-binding">Pippin</h2>
-                <hr class="star-primary">
-                <img src="img/portfolio/Pippin.png" class="img-responsive img-centered" alt="">
-                <p class="ng-binding"> This school project was designed to be a low level assembly language visualizer and compiler, the language being Pippin. This project uses commands such as copy and load, and contains an assembler, opcode interface, and a GUI for simple use. Pippin proved our competence in the java language after a semester of learning techniques that belonged to Object Oriented Programming. Pippin was built with java and used java swing for the GUI. Pippin incorporated the ideas that we had been learning throughout the semester, including: Subclasses, interfaces, inner classes, junit test, static methods and enhanced for loops. </p>
-                <ul class="list-inline item-details">
-                  <li>Hackathon:
-                    <strong class="ng-binding">None-School Work
-                    </strong>
-                  </li>
-                  <li>Date:
-                    <strong class="ng-binding">December 2015
-                    </strong>
-                  </li>
-                  <!-- ngIf: project.repo != 'null' --><li ng-if="project.repo != 'null'" class="ng-scope">
-                    <strong><a href="http://github.com/Derrreks/Pippin">Click me to visit this repository</a>
-                    </strong>
-                  </li><!-- end ngIf: project.repo != 'null' -->
-                  <!-- ngIf: project.site != 'null' -->
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="ttyl" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl">
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <div class="modal-body">
-                <h2 class="ng-binding">TTYL</h2>
-                <hr class="star-primary">
-                <img src="img/portfolio/ttyl.jpg" class="img-responsive img-centered" alt="">
-                <p class="ng-binding"> TTYL is an android app that responds to text messages received while driving with a short "I am driving, ttyl". No one in our team had built an android app before, but it seemed like a great option. We discovered that you can use sms receiving and sending in your app, and it fit our needs perfectly. We'd love to integrate google maps API so instead of having to enter the app and then transfer to maps, it'll all be taken care of on the back end while you're traveling. Built With: java, android-studio, xml, sms, web. </p>
-                <ul class="list-inline item-details">
-                  <li>Hackathon:
-                    <strong class="ng-binding">Hack@Smith
-                    </strong>
-                  </li>
-                  <li>Date:
-                    <strong class="ng-binding">February 2016
-                    </strong>
-                  </li>
-                  <!-- ngIf: project.repo != 'null' --><li ng-if="project.repo != 'null'" class="ng-scope">
-                    <strong><a href="http://github.com/SmithHacks/ttyl">Click me to visit this repository</a>
-                    </strong>
-                  </li><!-- end ngIf: project.repo != 'null' -->
-                  <!-- ngIf: project.site != 'null' -->
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="portfolio-modal modal fade" id="sealify" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -580,6 +497,41 @@
                   </li>
                   <!-- ngIf: project.repo != 'null' --><li ng-if="project.repo != 'null'" class="ng-scope">
                     <strong><a href="http://github.com/alanplotko/Banking-Simpatico">Click me to visit this repository</a>
+                    </strong>
+                  </li><!-- end ngIf: project.repo != 'null' -->
+                  <!-- ngIf: project.site != 'null' -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade in" id="foodbites" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <h2 class="ng-binding">Food Bites</h2>
+                <hr class="star-primary">
+                <img src="img/portfolio/fblarge.png" class="img-responsive img-centered" alt="">
+                <p class="ng-binding"> 
+                While attending a class with my friend John Reynolds, we were discussing the hassle one must go through to look up a recipe. We decided there is a better way to handle this, and as such we created Food Bites. This website looks up recipes, and if you decide you like the recipe, you click a button to add the ingredients to a shopping list. This web app was built with Node.js, JavaScript, AngularJS, ejs, Bootstrap, Python, Beautifulsoup, Flask, Requests, and Let’s Encrypt.
+                </p>
+                <ul class="list-inline item-details">
+                  <li>Date:
+                    <strong class="ng-binding">December 2016
+                    </strong>
+                  </li>
+                  <!-- ngIf: project.repo != 'null' --><li ng-if="project.repo != 'null'" class="ng-scope">
+                    <strong><a href="http://github.com/award28/foodbites">Click me to visit this repository</a>
                     </strong>
                   </li><!-- end ngIf: project.repo != 'null' -->
                   <!-- ngIf: project.site != 'null' -->
