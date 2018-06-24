@@ -39,6 +39,11 @@ var ball = {
       type: 'mouse'
    };
 
+if (window.innerWidth > 739) {
+    dis_limit = 300;
+}
+
+
 // Random speed
 function getRandomSpeed(pos) {
     var  min = -1.5,
@@ -192,8 +197,8 @@ function getDisOf(b1, b2) {
 }
 
 // add balls if there a little balls
-function addBallIfy() {
-    if(balls.length < 10) {
+function addBallIfy(num) {
+    if(balls.length < num) {
         balls.push(getRandomBall());
     }
 }
@@ -208,7 +213,12 @@ function render() {
     
     updateBalls();
     
-    addBallIfy();
+    if (window.innerWidth > 739) {
+        addBallIfy(30);
+    }
+    else {
+        addBallIfy(10);
+    }
     
     window.requestAnimationFrame(render);
 }
@@ -242,7 +252,12 @@ window.addEventListener('resize', function(e) {
 
 function goMovie() {
     initCanvas();
-    initBalls(10);
+    if (window.innerWidth > 739) {
+        initBalls(30);
+    } else {
+        initBalls(10);
+    }
+
     window.requestAnimationFrame(render);
 }
 
