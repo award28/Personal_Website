@@ -27,7 +27,7 @@ var ball = {
     
 // Line
    link_line_width = 0.8,
-   dis_limit = 300,
+   dis_limit = 150,
    add_mouse_point = true,
    mouse_in = false,
    mouse_ball = {
@@ -193,7 +193,7 @@ function getDisOf(b1, b2) {
 
 // add balls if there a little balls
 function addBallIfy() {
-    if(balls.length < 20) {
+    if(balls.length < 10) {
         balls.push(getRandomBall());
     }
 }
@@ -242,7 +242,7 @@ window.addEventListener('resize', function(e) {
 
 function goMovie() {
     initCanvas();
-    initBalls(20);
+    initBalls(10);
     window.requestAnimationFrame(render);
 }
 
