@@ -40,7 +40,7 @@ var ball = {
    };
 
 if (window.innerWidth > 739) {
-    dis_limit = 300;
+    dis_limit = 275;
 }
 
 
@@ -214,7 +214,7 @@ function render() {
     updateBalls();
     
     if (window.innerWidth > 739) {
-        addBallIfy(30);
+        addBallIfy(20);
     }
     else {
         addBallIfy(10);
@@ -253,7 +253,7 @@ window.addEventListener('resize', function(e) {
 function goMovie() {
     initCanvas();
     if (window.innerWidth > 739) {
-        initBalls(30);
+        initBalls(20);
     } else {
         initBalls(10);
     }
