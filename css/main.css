@@ -1,0 +1,31 @@
+canvas {
+    position: fixed;
+    z-index: -1;
+    overflow: hidden;
+}
+
+body {
+    opacity: 1;
+    color: black;
+    background: #3D9966; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg, #0083B0, #00B4DB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, #0083B0, #00B4DB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #0083B0, #00B4DB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, #0083B0, #00B4DB); /* Standard syntax */
+}
+
+.icon {
+    background: #2d2d2d;   
+    border: none;
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+}
+
+h2::after {
+    content: " ";
+    border: solid 2px #79cee6;
+    display: block;
+    width: 35px;
+    margin: 25px auto;
+}
